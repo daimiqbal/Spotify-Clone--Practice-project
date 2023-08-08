@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your favourite Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Logo"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist"></div>
+        <h1>Best songs of Shubh - No copyright Sounds</h1>
+        <div>
+            <div class="songitem" style="justify-content: space-between; align-items:center;">
+                <img src="cover.jpg" alt="1">
+                <span>Cheques</span>
+                <span class="songlistplay">
+                    <span class="timestamp">03:02 <i class="fas fa-2x fa-play-circle"></i></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="songbanner"></div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-backward"></i>
+            <i class="fas fa-3x fa-play-circle"></i>
+            <i class="fas  fa-3x fa-forward"></i>
+        </div>
+    </div>
+
+    <style>
+        .songInfo span {
+            color: white;
+        }
+    </style>
+    
+    <div class="bottom">
+        <div class="songInfo">
+            <img src="music.gif" width="150px" alt="music image">
+            <span>Cheques - Shubh</span>
+        </div>
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-backward"></i>
+            <i id="play-pause" class="fas fa-3x fa-play-circle"></i>
+            <i class="fas fa-3x fa-forward"></i>
+        </div>
+    </div>   
+    
+    <script src="https://kit.fontawesome.com/f630318594.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html> 
+
